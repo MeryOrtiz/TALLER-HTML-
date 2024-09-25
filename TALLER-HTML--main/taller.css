@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding: 25px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+
+main {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+table td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid #ececec;
+    background-color: #ffeb3b;
+}
+
+table img {
+    border-radius: 15px;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+nav {
+    position: fixed;
+height: 100%;
+    width: 80px; /* Ajusta este valor según el tamaño de la imagen */  
+display: block;
+
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #d81b60;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c2185b;
+}
+section {
+    background-color: #ffe0b2;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 80%;
+}
+
+h2 {
+    color: #8e44ad;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+footer {
+    background-color: #ff4081;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    position: relative;
+}
+
+footer img {
+    margin-bottom: 10px;
+    transition: transform 0.4s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    section, table {
+        width: 95%;
+        padding: 20px;
+    }
+
+    table img, ul img {
+        width: 80px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
